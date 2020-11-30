@@ -1,0 +1,510 @@
+html {
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: "Montserrat", sans-serif;
+    color: #111111;
+    font-weight: 300;
+    margin:0;
+    line-height:1.2;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.8vw;
+}
+
+h4 {
+    font-size: 2vw;
+}
+
+h5 {
+    font-size: 1.8rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/*--------------------------------
+Header
+--------------------------------*/
+
+nav {
+    height: 100px;
+    /* background-color: blanchedalmond; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.sitelogo {
+    float: left;
+    width: 250px;
+}
+
+.nav-page {
+    float: left;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 100px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #111111;
+    padding: 0 20px;
+}
+
+.nav-page:hover {
+    transition: all 0.3s ease;
+    background-color: #D7C79E;
+}
+
+.wrapper {
+    float: right;
+    padding: 25px 20px;
+}
+
+
+.wrapper button {
+    font-size: 2.8rem;
+    color: white;
+    border: none;
+    background-color: #caa08f;
+    padding: 8px 12px;
+    cursor: pointer;
+    display: inline-block;
+}
+.wrapper button:hover{
+    transition: all 0.3s ease;
+    background-color: #c9927d;
+    box-shadow: 0 6px 15px 0 rgba(36, 36, 38, 0.3);
+    outline-width: 0;
+}
+
+.icon {
+    display: none;
+}
+
+.fa fa-bars {
+    color: black;
+}
+.dropdown-content{
+    display: none;
+}
+
+/*--------------------------------
+Banner
+--------------------------------*/
+
+.container {
+    position: relative;
+    width: 100%;
+
+}
+
+.banner{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: auto;
+    
+}
+
+.btn {
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ac9873;
+    color: #ffffff;
+    font-size: 2vw;
+    font-weight: bold;
+    padding: 1.5vw 2.5vw;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition: all 0.3s ease;
+    background-color: #c5ab7b;
+    box-shadow: 0 6px 15px 0 rgba(36, 36, 38, 0.3);
+    outline-width: 0;
+}
+
+.slogan {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/*-----------------------------
+News & Blog
+-----------------------------*/
+.news {
+    text-align: center;
+    line-height: 20px;
+    padding-top: 60px;
+    margin: 15px;
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.row{
+    padding: 30px 50px 0 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.column-3 {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 15px;
+    padding: 0 8px;
+}
+
+/* Add some shadows to create a card effect */
+
+.poster {
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
+    background-color: #EAF0E0;
+}
+
+/* Some left and right padding inside the container */
+
+.text-container {
+    padding: 0 16px;
+}
+
+.text-container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.icon-more{
+    display: block;
+    text-align: center;
+    font-size: 4vw;
+    margin: 0 auto;
+    color: #C2907D;
+}
+
+/*--------------------------------
+Footer
+--------------------------------*/
+.footer-content{
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+.social a{
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 25px;
+}
+
+.footer-bottom{
+    overflow: hidden;
+    background-color: #7a5a4e;
+    line-height: 20px;
+}
+
+.footer-bottom p{
+    padding: 10px 10px;
+    display: inline;
+    margin: 0;
+    color: white;
+}
+.copyright{
+    float: left;
+}
+
+.designer{
+    float: right;
+}
+
+/*--------------------------------
+About Us
+--------------------------------*/
+.row-3{
+    padding: 0 20px;
+    margin: 0 100px;
+}
+
+.rounded{
+    border-radius: 50%;
+}
+
+.content-about{
+    padding: 0 30px;
+    text-align: center;
+}
+
+.content-about button{
+    font-size: 20px;
+    background-color: #ebdbb6da;
+    margin: 30px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.content-about button:hover{
+    transition: all 0.3s ease;
+    background-color:#eed69f;
+    box-shadow: 0 6px 15px 0 rgba(36, 36, 38, 0.2);
+    outline-width: 0;
+}
+
+.row-about{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 100px;
+}
+
+.img-about{
+    padding: 20px;
+
+}
+
+.text-about{
+    padding: 0 30px;
+    line-height: 1.5;
+    margin: 30px;
+}
+
+.ball1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 10%;
+    background-color: #9ABBD6;
+    border-radius: 1000px;
+    z-index: -1;
+}
+.ball2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 5%;
+    background-color: #A9C083;
+    border-radius: 1000px;
+    z-index: -1;
+}
+.ball3{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 17%;
+    right: 5%;
+    background-color: #CB906F;
+    border-radius: 1000px;
+    z-index: -1;
+}
+#encounters .ball1{
+    background-color: #A7AC5A;
+}
+#encounters .ball2{
+    background-color: #9D8269;
+}
+
+#our-story .ball1{
+    background-color: #7fccdb;
+}
+#our-story .ball2{
+    background-color: #a79a96;
+}
+#our-story .ball3{
+    background-color: #A87C76;
+}
+/*--------------------------------
+Cloud Pets
+--------------------------------*/
+.page-title{
+    text-align: center;
+    /* padding: 20px; */
+}
+
+.row-6{
+    overflow: hidden;
+    padding: 30px 100px 0 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.column-6 {
+    float: left;
+    width: 20%;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+.column-6 .poster{
+    background-color: #ebdbb6da;
+}
+
+.all-adoption{
+    display: block;
+    
+}
+
+.icon-word{
+    text-align: center;
+    margin: 0;
+    color: #74584d;
+}
+
+.hidden-box{
+    position: relative;
+    background: rgb(89, 128, 86);  
+}
+
+.bottom-right{
+    font-size: 20px;
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+}
+.bottom-right i{
+    color:white;
+}
+.opacity{
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.middle i{
+    font-size: 30px;
+}
+
+.hidden-box:hover .opacity{
+    opacity: 0.3;
+}
+
+.hidden-box:hover .middle{
+    opacity: 1;
+}
+
+/*--------------------------------
+Donation
+--------------------------------*/
+.row-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 150px;
+    background-color: #f5eace;
+}
+
+.column-2{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
+form{
+    margin: 0 50px;
+}
+input[name=card-number]{
+    padding: 12px 20px;
+    border: none;
+    width: 100%;
+    margin: 10px 0;
+}
+label{
+    display: block;
+    padding: 10px 0;
+
+}
+.form-inline{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.form-inline button{
+    border: none;
+    font-size: 15px;
+    padding: 8px 20px;
+    background-color: white;
+    cursor: pointer;
+    width: 100%;
+}
+.form-inline button:hover{
+    transition: all 0.3s ease;
+    background-color:#eed69f;
+    outline-width: 0;
+}
+.form-inline input{
+    width: 45%;
+    padding: 12px 20px;
+    border: none;
+}
+#donate-btn{
+    float: right;
+    border: none;
+    margin: 10px 0;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #caa08f;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+#donate-btn:hover{
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    outline-width: 0;
+}
+.caption{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0,0,0,0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 0 10px;
+
+}

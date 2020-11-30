@@ -1,0 +1,106 @@
+/* Display the columns below each other instead of side by side on small screens */
+
+@media screen and (max-width: 900px) {
+    .row-3{
+        padding: 0;
+        margin: 0 20px;
+    }
+    .row-6 {
+        padding: 30px;
+    }
+    .column-6 {
+        width: 50%;
+        /* display: block; */
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .nav-page {
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+
+    .dropdown {
+        cursor: pointer;
+        padding: 10px 0;
+        float: right;
+        overflow: hidden;
+        font-size: 2rem;
+        color: black;
+        margin: 20px 0;
+    }
+
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        top: 10%;
+        right:0;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content a{
+        float: none;
+        color: black;
+        padding: 10px;
+        display: block;
+        text-align: center;
+    }
+    .dropdown-content a:hover{
+        background-color: #D7C79E;
+    }
+    .show {
+        display: block;
+    }
+
+    .sitelogo {
+        margin: 20px 0;
+        width: 100px;
+    }
+    .wrapper button {
+        font-size: 1.5rem;
+        position: absolute;
+        left: 40%;
+    }
+    .row-2 {
+        flex-direction: column;
+        margin: 0 30px
+    }
+
+    .column-2 {
+        width: 100%;
+    }
+    .row-about{
+        flex-direction: column;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .row {
+        padding: 30px 15px;
+    }
+    .column-3 {
+        width: 100%;
+        display: block;
+    }
+    form {
+        margin: 20px;
+    }
+    .form-inline button {
+        padding: 8px 15px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .column-6 {
+        width: 100%;
+    }
+    .text-about{
+        margin: 10px;
+    }
+}
